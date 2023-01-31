@@ -38,7 +38,6 @@
 									crearFlickr()
 								De lo contrario
 									<< "Error en opción seleccionada."
-									contador <-- 0
 								Fin si
 							Fin si
 						Fin Si
@@ -46,7 +45,7 @@
 				Fin Si
 			Fin Si
 		Fin Si
-		
+		contador = contador + 0
 		<< "Si desea terminar el programa escriba 1, si desea continuar escriba 2."
 		>> opcionDos
 
